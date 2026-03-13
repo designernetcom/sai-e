@@ -30,7 +30,8 @@ Page Header
     right: 0;
     bottom: 0;
     background: rgb(6, 46, 57);
-    background: linear-gradient(90deg, rgba(6, 46, 57, 1) 13%, rgba(6, 46, 57, 0.8071603641456583) 35%, rgba(6, 46, 57, 0.5550595238095238) 60%, rgba(6, 46, 57, 0.4206057422969187) 100%);
+    /* background: linear-gradient(90deg, rgba(6, 46, 57, 1) 13%, rgba(6, 46, 57, 0.8071603641456583) 35%, rgba(6, 46, 57, 0.5550595238095238) 60%, rgba(6, 46, 57, 0.4206057422969187) 100%); */
+    background: linear-gradient(90deg, rgb(0 0 0 / 89%) 13%, rgb(34 34 34 / 81%) 35%, rgb(69 69 69 / 62%) 60%, rgb(66 66 66 / 0%) 100%);
     content: "";
     z-index: -1;
 }

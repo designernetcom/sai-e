@@ -24,7 +24,7 @@ Footer One
 .footer-one__top {
   position: relative;
   display: block;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .footer-one__top-inner {
@@ -183,7 +183,7 @@ Footer One
 .footer-one__contact {
   position: relative;
   display: block;
-      padding-bottom: 55px;
+      padding-bottom: 35px;
 }
 
 .footer-one__contact-box {

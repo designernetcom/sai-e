@@ -452,7 +452,8 @@ Service Details
   position: relative;
   display: block;
   background: var(--logistiq-white);
-  padding: 120px 0px 120px;
+  /* padding: 120px 0px 120px; */
+  padding: 40px 0px 0px;
   z-index: 1;
 }
 
@@ -697,7 +698,7 @@ Service Details
   left: 0;
   bottom: 0;
   right: 0;
-  background: var(--logistiq-base);
+  /* background: var(--logistiq-base); */
   height: 305px;
   clip-path: polygon(0 0, 100% 0%, 100% 82%, 0% 100%);
   content: "";
@@ -710,7 +711,7 @@ Service Details
   left: 0;
   bottom: 0;
   right: 0;
-  background: var(--logistiq-black);
+  /* background: var(--logistiq-black); */
   height: 295px;
   clip-path: polygon(0 0, 100% 0%, 100% 82%, 0% 100%);
   content: "";
