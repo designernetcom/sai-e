@@ -7,14 +7,14 @@ About One
   position: relative;
   display: block;
   background: var(--logistiq-white);
-  padding: 60px 0px 60px;
+  padding: 60px 0px 100px;
   z-index: 1;
 }
 
 .about-one__content {
   position: relative;
   display: block;
-  max-width: 655px;
+  /* max-width: 655px; */
   width: 100%;
 }
 
@@ -173,7 +173,7 @@ About One
 .about-one__img {
   position: relative;
   display: block;
-  max-width: 425px;
+  /* max-width: 425px; */
   width: 100%;
 }
 
@@ -230,7 +230,7 @@ About One
 .about-one__round-text-box {
   position: absolute;
   bottom: 80px;
-  left: -80px;
+  left: -124px;
   width: 150px;
   height: 150px;
   border-radius: 50%;

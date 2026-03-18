@@ -248,7 +248,7 @@
   }
 
   .about-one {
-    padding: 120px 0px 265px;
+    padding: 55px 0px 55px;
   }
 
   .project-one__title .sec-title__title {
@@ -683,7 +683,7 @@
   }
 
   .about-one {
-    padding: 120px 0px 265px;
+    padding: 60px 0px 200px;
   }
 
   .service-one__single-content {
@@ -3279,5 +3279,17 @@
   }
   .main-header-three__bottom-left .logo-box a img {
     width: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .about-one__round-text-box {
+    top: -115px;
+    left: 97px;
+  }
+}
+@media (max-width: 320px) {
+  .about-one__round-text-box {
+    top: -115px;
+    left: 70px;
   }
 }
