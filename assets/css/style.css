@@ -1365,7 +1365,7 @@ button {
   left: 100%;
   border-left: 40px solid transparent;
   background-color: transparent;
-  width: 320px;
+  width: 330px;
   box-shadow: none;
   border-top: none;
 }
@@ -2291,7 +2291,7 @@ button {
   color: #e31e24;
 }
 .main-header-three__bottom {
-  margin-top: -25px;
+  margin-top: -30px;
   z-index: 2;
 }
 .main-header-three__bottom-inner {
@@ -2301,6 +2301,7 @@ button {
   justify-content: space-between;
   background: var(--logistiq-white);
   padding: 0 20px;
+  border-top: 4px solid #e31e24;
 }
 .main-header-three__bottom-left,
 .main-header-three__bottom-left .logo-box,
@@ -2314,7 +2315,7 @@ button {
   display: inline-block;
 }
 .main-header-three__bottom-left .logo-box a img {
-  width: 100%;
+  width: 145px;
 }
 .main-header-three .main-menu .main-menu__list > li,
 .main-header-three
@@ -2337,7 +2338,7 @@ button {
   display: block;
   line-height: 0;
 }
-.stricky-header--style3 .main-header-three__bottom-right,
+
 .stricky-header--style3 .main-header-three__top {
   display: none;
 }
@@ -2385,7 +2386,7 @@ button {
 .contact-card {
   padding: 40px 25px;
   border-radius: 10px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); */
   transition: 0.3s;
   height: 100%;
 }
@@ -2428,22 +2429,19 @@ button {
   color: #e21e24;
 }
 
-
-
 .space-15 {
   height: 5px;
 }
 
-
 .product-description__list ul {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   padding: 0;
 }
 
-.product-description__list ul li {
-  width: 50%; /* 2 items in one row */
-}
+/* .product-description__list ul li {
+  width: 50%;
+} */
 
 /* Mobile View */
 @media (max-width: 767px) {
@@ -2458,8 +2456,6 @@ button {
     width: 50%; /* 2 items per row */
   }
 }
-
-
 
 /* Gallery Section */
 .gallery {
@@ -2495,7 +2491,9 @@ button {
   width: 90%;
   height: 90%;
   object-fit: cover;
-  transition: transform 0.5s ease, filter 0.5s ease;
+  transition:
+    transform 0.5s ease,
+    filter 0.5s ease;
 }
 
 /* Hover Animation */
@@ -2523,7 +2521,9 @@ button {
   }
 }
 
-
 /* .container.gallery-container {
   background: #fff !important;
 } */
+.product-details__content h5 {
+  color: #e31e24;
+}

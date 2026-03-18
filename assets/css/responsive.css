@@ -1518,19 +1518,19 @@
   .footer-one__top {
     padding-bottom: 0px;
     margin-bottom: -30px;
-}
+  }
 
-.footer-one__contact {
+  .footer-one__contact {
     padding-bottom: 0px;
-}
+  }
 
-.service-details {
+  .service-details {
     position: relative;
     display: block;
     background: var(--logistiq-white);
     padding: 0px 0px 0px;
     z-index: 1;
-}
+  }
 
   .footer-one__bottom-inner {
     display: block;
@@ -1714,7 +1714,7 @@
 
   .working-process-one {
     /* padding: 120px 0px 70px; */
-            padding: 55px 0px 10px;
+    padding: 55px 0px 10px;
   }
 
   .working-process-one__single .content-box h2 {
@@ -1749,7 +1749,7 @@
   }
 
   .page-header__inner h2 {
-    font-size: 35px;
+    font-size: 28px;
   }
 
   .blog-details__content {
@@ -2390,7 +2390,7 @@
   }
 
   .product-details__top {
-    margin-top: 55px;
+    margin-top: 30px;
   }
 
   .product-details__title span {
@@ -3263,5 +3263,21 @@
     padding-left: 15px;
     padding-right: 15px;
     max-width: 100%;
+  }
+  .page-header {
+    padding: 50px 0px 50px;
+  }
+  .product {
+    padding: 0px 0 20px;
+  }
+  .product-details__title {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .product__all-single {
+    margin-top: 25px;
+  }
+  .main-header-three__bottom-left .logo-box a img {
+    width: 100px;
   }
 }
