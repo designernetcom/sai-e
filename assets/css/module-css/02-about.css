@@ -457,6 +457,7 @@ About Two
 
 .about-two__content-text1 p {
   margin: 0;
+  text-align: justify;
 }
 
 .about-two__content-text2 {
@@ -778,4 +779,7 @@ About Three
   display: block;
   margin-top: 31px;
   line-height: 0px;
+}
+.fa-whatsapp {
+  font-size: 25px;
 }
