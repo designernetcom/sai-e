@@ -696,9 +696,9 @@ Slider One
 =============================================
 ***/
 .slider-one {
-  position: relative;
+  /* position: relative; */
   display: block;
-  margin-top: -67px;
+  /* margin-top: -67px; */
   z-index: 1;
 }
 
