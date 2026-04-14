@@ -2294,6 +2294,7 @@ button {
   /* margin-top: -30px; */
   z-index: 2;
   border-top: 4px solid #e31e24;
+  padding: 10px;
 }
 .main-header-three__bottom-inner {
   position: relative;
@@ -2316,7 +2317,7 @@ button {
   display: inline-block;
 }
 .main-header-three__bottom-left .logo-box a img {
-  width: 145px;
+  width: 180px;
 }
 .main-header-three .main-menu .main-menu__list > li,
 .main-header-three
