@@ -3256,7 +3256,7 @@
   }
 
   .main-header-three__bottom-inner {
-    padding: 20px 0px 20px;
+    padding: 5px 0px 5px;
   }
 
   .main-header-three__bottom .container {
@@ -3278,7 +3278,7 @@
     margin-top: 25px;
   }
   .main-header-three__bottom-left .logo-box a img {
-    width: 100px;
+    width: 130px;
   }
 }
 @media (max-width: 480px) {
